@@ -1,0 +1,14 @@
+header ul.fir>li a{display: none;}
+header .sec form{display: none;}
+section div.pro{width:95%;margin:0 auto;}
+section .pro>dl{width:50%; padding:0;}
+section .pro>dl div{padding-left: 10px;padding-right: 10px;}
+.loop .fir{position: relative;}
+.shop{position: relative;margin-bottom: 300px;}
+.meeting{position: relative;margin-bottom: 300px;}
+.words{position: absolute;height:280px;left:0;bottom: -280px;width:100%;text-align: center; }
+.shop .words{background: #000;margin-left: 0;}
+.meeting .words{background: #000;margin-left: 0;}
+.loop .words{background: #E6E6E6;margin-left: 0;}
+.loop{margin-bottom: 340px;}
+

@@ -1,0 +1,5 @@
+footer .wrap{margin:0 60px;}
+footer .wrap>ul{width:32%;}
+footer .wrap{flex-flow: row wrap;}
+footer ul li i{display:block;}
+.feedback{display: none;}

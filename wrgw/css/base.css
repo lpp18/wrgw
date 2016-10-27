@@ -1,0 +1,11 @@
+li{list-style: none;}
+	body,li,ul,h3,h2,h1,p,dl,dd{margin:0;padding:0;}
+	.clearfix:after{
+		content:"";
+        clear: both;
+       overflow: hidden;
+       height:0;
+       display:block;
+	}
+
+

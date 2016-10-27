@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/demo.css">
+	<link rel="stylesheet" type="text/css" href="css/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" media="screen and (max-width:510px)" href="css/c5.css">
+	<link rel="stylesheet" media="screen and (min-width:510px) and (max-width:1050px)" href="css/c4.css">
+	<link rel="stylesheet" media="screen and (min-width:510px) and (max-width:870px)" href="css/c6.css">
+	<link rel="stylesheet" media="screen and (max-width:1050px) and (min-width:870px)" href="css/c3.css">
+	<link rel="stylesheet" media="screen and (min-width:1050px) and (max-width:1750px)" href="css/c2.css">
+	<link rel="stylesheet" media="screen and (min-width:1750px)" href="css/c1.css">
+	<style type="text/css">
+	    .swrap{width:100%;border-bottom: 1px solid #ddd;}
+	    a{color:#000;text-decoration: none;}
+		header{height:48px;width:100%;display: flex;flex-direction: row;justify-content:space-between;}
+		header ul{display: flex;}
+		header .fir>a img{max-height: 23px;margin-top: 10px;margin-right: 20px;}
+		header .fir{float: left;width:30%;}
+		header .fir li{width: 64px;display: flex;}
+		header .fir li a{width:64px;height:48px;display:inline-block;line-height: 48px;text-align: center;font-size: 16px;}
+		header .fir li a:hover{background: #f2f2f2;}
+		header .fir li i{line-height: 48px;font-size:16px;float: right;margin-top: 3px;}
+		header .sec{display:flex;justify-content: flex-start ;float:right;width:440px;text-align: center;line-height: 28px;padding-top:6px;}
+		header .sec li:nth-child(1){width:330px;}
+		header .sec li:nth-child(2){flex:1;}
+		header .sec li:nth-child(3){flex:1;}
+		header .sec li form{border: 1px solid #ddd;overflow: hidden;}
+		header .sec li a{font-size: 8px;}
+		header .sec li form input{border:0;}
+		header .sec li:nth-child(1) .txt{height:34px;width:230px;float: left;line-height: 34px;}
+		header .sec li:nth-child(1) .btn{height:34px;width:40px;float:right;background:#fff url(images/ss.png) no-repeat 0 8px;}
+		header .sec li:nth-child(1) .btn:hover{background: url(images/ss1.png) no-repeat 0 8px;}
+		section .loop{width:100%;height:calc(100vw*0.67/2);}
+		section .loop .fir{width:100%;height:100%;background: url(images/lb1.jpg) center no-repeat;background-size:100% 100%}
+		  .words{display: flex;flex-direction: column;margin-top: 10%;float:left;margin-left: 5%;}
+		  .words .tips{font-size: 28px;line-height: 58px;}
+		  .words span{display:block;font-size: 20px;}
+		  .words span a{display: inline-block;width:144px;height:47px;text-align: center;line-height: 47px;font-size: 18px;border:1px solid #555;margin-right: 20px;}
+		  .words span a:hover{background: #000;color:#fff;}
+		.iconfont{font-size: 25px;}
+		.feedback{position: fixed;top:50%;right:0;z-index:200;width:36px;height:120px;font-size: 1.23em;-webkit-writing-mode:horizontal-tb;text-align: center;letter-spacing: 0;text-rendering: auto;padding-right:10px;border:1px solid skyblue;border-right: none; }
+
+		.pro{width:100%;display: flex;flex-direction: row;margin-top: 50px;}
+		.pro dl{display: flex;flex-direction: column;width:25%;padding-right: 20px;margin-bottom: 50px;}
+		.pro dl:last-child{padding:0;}
+		.pro dl img{width:100%;}
+		.pro dl dd a{display: flex;flex-direction: column;}
+		.pro dl dd a span{line-height: 40px;}
+		.pro dl dd a span:nth-child(1){font-size: 25px;}
+		.shop{background: url(images/shop.jpg) no-repeat;}
+		.meeting{background: url(images/bg3.jpg) no-repeat;}
+		.shop,.meeting{width:100%;height:calc(100vw*0.67/2);background-size: 100% 100%;color: #fff;}
+		.shop .words span a,.meeting .words span a{color:#fff;border-color:#fff;}
+		.site{width:100%;height:150px;line-height: 150px;font-size: 40px;text-align: center;}
+		footer{width:100%;background: #F2F2F2;}
+		footer .wrap{display: flex;margin:0 60px;}
+		footer ul{width:16%;align-self:flex-start;margin-top: 35px;}
+		footer ul a{color:#626262;line-height: 40px;}
+		footer i{display: none;}
+	</style>
+</head>
+<body>
+  <div class="swrap">
+   <div class="wrap">
+	<header>
+	    <div class="feedback">网站反馈</div>
+		<ul class="fir"> 
+		    <a href="#"><img src="images/logo.png"></a>
+		    <li><a href="">商店<i class="iconfont">&#xe649;</i></a></li>
+		  	<li><a href="">产品<i class="iconfont">&#xe649;</i></a></li>
+		  	<li><a href="">支持</a></li>	
+		</ul>
+		<ul class="sec">
+			<li><form><input type="text" class="txt" placeholder="在Microsoft.com中搜索" name=""><input type="button" class="btn" name=""></form></li>
+			<li><a href=""></a></li>
+			<li><a href=""></a><i class="iconfont">&#xe856;</i></li>
+			<li><a href="">登录</a></li>
+			<li><a href=""></a></li>
+		</ul>
+	</header>
+   </div>
+  </div>
+  <div class="wrap">
+	<section>
+		<div class="loop">
+			<div class="fir">
+				<p class="words">
+				   <span class="tips">Surface</span>
+				   <span class="tips">极具生产力的商用设备</span>
+				   <span>
+				     <a href="#">了解更多</a>
+				     <a href="#">立即购买</a>
+				   </span>
+				</p>
+			</div>
+		</div>
+		<div class="pro">
+			<dl>
+			  <div>
+				<dt><a href=""><img src="images/dl1.jpg" alt=""></a></dt>
+				<dd><a href="">
+					<span>Ofice 365</span>
+					<span>您钟爱的设备上的 Office 365。立即购买。</span>
+				</a></dd>
+			  </div>
+			</dl>
+			<dl>
+               <div>
+				<dt><a href=""><img src="images/dl2.jpg" alt=""></a></dt>
+				<dd><a href="">
+					<span>Xbox One</span>
+                    <span>尽情娱乐。购买最新主机。</span>
+				</a></dd>
+			  </div>
+			</dl>
+			<dl>
+			   <div>
+				<dt><a href=""><img src="images/dl3.jpg" alt=""></a></dt>
+				<dd><a href="">
+					<span>Microsoft Lumia</span>
+                    <span>总有适合你的 Lumia 手机。立即查找。</span>
+				</a></dd>
+			   </div>
+			</dl>
+			<dl>
+			   <div>
+				<dt><a href=""><img src="images/dl4.jpg" alt=""></a></dt>
+				<dd><a href="">
+					<span>Windows 10</span>
+                    <span>了解新增功能和出色的增强功能。</span>
+				</a></dd>
+			  </div>
+			</dl>
+		</div>
+		<div class="shop">
+			<p class="words">
+				   <span class="tips">微软官方商城</span>
+				   <span class="tips">寻找适合的技术，满足生活、学习、工作和娱乐之所需。</span>
+				   <span>
+				     <a href="#">立即购买</a>
+				   </span>
+				</p>
+		</div>
+		<p class="site">适用于工作地点</p>
+		<div class="pro">
+			<dl>
+			  <div>
+				<dt><a href=""><img src="images/s1.jpg" alt=""></a></dt>
+				<dd><a href="">
+					<span>Windows 10 企业版</span>
+					<span>下载适用于 IT 专业人士的 90 天免费评估版。</span>
+				</a></dd>
+			  </div>
+			</dl>
+			<dl>
+               <div>
+				<dt><a href=""><img src="images/s2.jpg" alt=""></a></dt>
+				<dd><a href="">
+					<span>Office 365 企业版 E5</span>
+                    <span>充分利用全新功能。</span>
+				</a></dd>
+			  </div>
+			</dl>
+			<dl>
+			   <div>
+				<dt><a href=""><img src="images/s3.jpg" alt=""></a></dt>
+				<dd><a href="">
+					<span>Visual Studio 2015</span>
+                    <span>适用于所有开发人员和所有应用的工具。</span>
+				</a></dd>
+			   </div>
+			</dl>
+			<dl>
+			   <div>
+				<dt><a href=""><img src="images/s4.jpg" alt=""></a></dt>
+				<dd><a href="">
+					<span>Microsoft Azure</span>
+                    <span>立即开设免费帐户并开始构建 Web 应用</span>
+				</a></dd>
+			  </div>
+			</dl>
+		</div>
+		<div class="meeting">
+			<p class="words">
+				   <span class="tips">2016微软技术大会</span>
+				   <span class="tips">全面吹响数字化转型的技术大会。</span>
+				   <span>
+				     <a href="#">了解更多></a>
+				   </span>
+				</p>
+		</div>
+	</section>
+	<footer>
+		<div class="wrap">
+			<ul>
+				<li>学习<i class="iconfont">&#xe649;</i></li>
+				<li><a href="">Windows</a></li>
+				<li><a href="">Office</a></li>
+				<li><a href="">Skype</a></li>
+				<li><a href="">Outlook</a></li>
+				<li><a href="">OneDrive</a></li>
+				<li><a href="">MSN</a></li>
+			</ul>
+			<ul>
+				<li>设备<i class="iconfont">&#xe649;</i></li>
+				<li><a href="">Microsoft Surface</a></li>
+				<li><a href="">Xbox</a></li>
+				<li><a href="">PC</a></li>
+				<li><a href="">Microsoft Lumia</a></li>
+			</ul>
+			<ul>
+				<li>微软官方商城<i class="iconfont">&#xe649;</i></li>
+				<li><a href="">我的订单</a></li>
+				<li><a href="">与我们联系</a></li>
+			</ul>
+			<ul>
+				<li>下载<i class="iconfont">&#xe649;</i></li>
+				<li><a href="">微软中国下载中心</a></li>
+				<li><a href="">所有Windows下载</a></li>
+				<li><a href="">Windows 10 Apps</a></li>
+				<li><a href="">Office Apps</a></li>
+				<li><a href="">Microsoft Apps</a></li>
+				<li><a href="">Microsoft Lumia Apps</a></li>
+				<li><a href="">Internet Explorer</a></li>
+			</ul>
+			<ul>
+				<li>价值观<i class="iconfont">&#xe649;</i></li>
+				<li><a href="">Microsoft 隐私</a></li>
+				<li><a href="">教育</a></li>
+			</ul>
+			<ul>
+				<li>公司<i class="iconfont">&#xe649;</i></li>
+				<li><a href="">招贤纳士</a></li>
+				<li><a href="">关于微软</a></li>
+				<li><a href="">网站地图</a></li>
+			</ul>
+		</div>
+	</footer>
+  </div>
+</body>
+</html>
