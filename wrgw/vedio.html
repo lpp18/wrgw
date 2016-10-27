@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="jquery_1.11.3.min.js"></script>
+	<style type="text/css">
+	   body,video{margin:0;padding:0;}
+		button{float: left;width:70px;height:30px;line-height: 30px;text-align: center;}
+	.info{margin-top: 30px;}
+	</style>
+</head>
+<body>
+	<video width="700" height="350">
+		<source src="video/EP07.mp4" type="video/mp4">
+	</video>
+	 <div>
+		<button>获取</button>
+		<button>播放</button>
+		<button>暂停</button>
+		<button>快进</button>
+		<button>快退</button>
+		<button>100%</button>
+		<button>75%</button>
+		<button>50%</button>
+		<button>从头播放</button>
+   </div>
+   <div class="info"></div>
+   <script type="text/javascript">
+      $("button").eq(0).click(function(event) {
+      	   var tr=""
+      	  if(!$("video").get(0).paused){
+             tr="播放中"
+      	  }else{
+      	  	tr="暂停中"
+      	  }
+   	 	 $(".info").empty().append("<p>当前播放至"+$("video").get(0).currentTime+"</p><p>视频总时长为："+$("video").get(0).duration+"</p><p>播放状态为："+tr+"</p>")
+   	 	  
+   	 });
+
+   	 $("button").eq(1).click(function(event) {
+   	 	 $("video").get(0).play()
+   	 	  
+   	 });
+   	  $("button").eq(2).click(function(event) {
+   	 	 $("video").get(0).pause()
+   	 });
+   	   $("button").eq(3).click(function(){
+      $("video").get(0).currentTime+=3;
+   	  })
+   	     $("button").eq(4).click(function(){
+      $("video").get(0).currentTime-=3;
+   	  })
+   	  $("button").eq(5).click(function(){
+   	  	$("video").css({"width":screen.availWidth,"height":screen.availHeight})
+   	  })
+   	   $("button").eq(6).click(function(){
+   	  	$("video").css({"width":screen.availWidth*0.75,"height":screen.availHeight*0.75})
+   	  })
+   	     $("button").eq(7).click(function(){
+   	  	$("video").css({"width":screen.availWidth*0.5,"height":screen.availHeight*0.5})
+   	  })
+   	        $("button").eq(8).click(function(){
+      $("video").get(0).currentTime=0;
+   	  })
+   </script>
+</body>
+</html>
